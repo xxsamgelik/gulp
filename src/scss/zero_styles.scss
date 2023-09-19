@@ -1,0 +1,42 @@
+/* zero_styles.scss */
+
+/* Обнуление стилей (reset) */
+html, body, div, h1, h2, h3, p, ul, ol, li, dl, dt, dd, img, table, th, td, form, fieldset, legend, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Обнуление отступов и маргинов для ul и ol */
+ul, ol {
+  list-style: none;
+}
+
+/* Обнуление стандартных значений для ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Обнуление стандартных значений для заголовков */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Обнуление стандартных значений для списков */
+ul, ol, li {
+  list-style: none;
+}
+
+/* Обнуление стандартных значений для изображений */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Обнуление стандартных значений для таблиц */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
